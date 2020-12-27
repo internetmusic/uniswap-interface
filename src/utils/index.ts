@@ -9,6 +9,7 @@ import { ChainId, JSBI, Percent, Token, CurrencyAmount, Currency, ETHER } from '
 import { TokenAddressMap } from '../state/lists/hooks'
 
 // returns the checksummed address if the address is valid, otherwise returns false
+//Just in case
 export function isAddress(value: any): string | false {
   try {
     return getAddress(value)
